@@ -1,0 +1,65 @@
+/* -------------------------------- Global Css --------------------------------- */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  font-family: "Outfit", sans-serif;
+
+  background-color: hsl(212, 45%, 89%);
+  font-size: 15px;
+}
+
+
+/* -------------------------------- Custom CSS -------------------------------- */
+
+.container {
+  background-color: hsl(0, 0%, 100%);
+  max-width: 300px;
+  border-radius: 20px;
+  margin: 0 auto;
+  box-shadow: 21px 34px 35px -3px rgba(138,138,138,0.41);
+}
+
+
+.card {
+  padding: 20px;
+  text-align: center;
+  border-radius: 20px;
+  font-size: 15px;
+}
+
+.text h2 {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px 10px;
+}
+.text p {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px 20px;
+  color: #808080;
+}
+
+
+img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+/* --------------------X----------- Custom CSS -----------------X-------------- */
+
+@media (max-width: 375px){
+    .card {
+        background-color: hsl(0, 0%, 100%);
+        max-width: 250px;
+        border-radius: 20px;
+    }
+}
